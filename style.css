@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: hsl(236, 88%, 93%);
+}
+
+.img-top {
+  margin-left: 82%;
+}
+
+.wrapper-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  color: grey;
+
+  margin-bottom: 150px;
+  margin-left: 470px;
+}
+
+/* card components */
+
+.cards {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* gap: 10px; */
+}
+
+.basic-card {
+  background-color: #fff;
+  width: 380px;
+  padding: 40px;
+  border-radius: 11px;
+}
+
+.pro-card {
+  background-color: hsl(236, 80%, 73%);
+  width: 310px;
+  padding: 50px;
+}
+.master-card {
+  background-color: #fff;
+  width: 380px;
+  padding: 50px;
+  border-radius: 11px;
+}
+
+/* basic-card components */
+
+.basic-card h3,
+h2,
+p {
+  margin-bottom: 30px;
+  color: hsl(240, 2%, 39%);
+}
+
+.basic-card p {
+  font-weight: 700;
+}
+
+.basic-card h3 {
+  font-weight: 750;
+  color: fff;
+}
+
+.basic-card span {
+  font-size: 60px;
+}
+
+.basic-card h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.basic-card p {
+  padding-top: 20px;
+}
+
+.basic-btn {
+  margin-top: 20px;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid hsl(237, 81%, 65%);
+  color: hsl(237, 81%, 65%);
+  font-weight: 600;
+  letter-spacing: 2px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+/* pro-card component */
+
+.pro-card {
+  width: 400px;
+  border-radius: 12px;
+}
+
+.pro-card h4 {
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 21px;
+}
+
+.pro-card p {
+  font-weight: 700;
+}
+
+.pro-card h3 {
+  font-weight: 750;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.pro-card h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pro-card span {
+  font-size: 60px;
+}
+
+.pro-card h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.pro-card h4 {
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+.pro-btn {
+  margin-top: 20px;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid hsl(105, 29%, 97%);
+  /* border: none; */
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background-color: hsl(237, 55%, 66%);
+  border-radius: 3px;
+}
+
+/* master-card component  */
+
+.master-card h3,
+h2,
+p {
+  margin-bottom: 30px;
+  color: hsl(240, 2%, 39%);
+}
+
+.master-card p {
+  font-weight: 700;
+}
+
+.master-card h3 {
+  font-weight: 750;
+  color: fff;
+}
+
+.master-card span {
+  font-size: 60px;
+}
+
+.master-card h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.master-card p {
+  padding-top: 20px;
+}
+
+.master-btn {
+  margin-top: 20px;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid hsl(237, 81%, 65%);
+  color: hsl(237, 81%, 65%);
+  font-weight: 600;
+  letter-spacing: 2px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+/* card buttons */
+
+.basic-btn,
+.pro-btn,
+.master-btn {
+  cursor: pointer;
+}
+
+.basic-btn:hover {
+  background-color: hsl(237, 67%, 67%);
+  color: #fff;
+}
+
+.master-btn:hover {
+  background-color: hsl(237, 67%, 67%);
+  color: #fff;
+}
+
+.pro-btn:hover {
+  background-color: #fff;
+  color: hsl(237, 67%, 67%);
+}
